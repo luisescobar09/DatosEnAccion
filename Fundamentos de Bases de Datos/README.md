@@ -516,6 +516,7 @@ Y entregará el siguiente resultado:
 |    _4_   | _Actualización de registro_ |
 |    _5_   | _Actualización de registro_ |
 |    _6_   | _Actualización de registro_ |
+
 Y ahora solo fue actualizada la fila con ID igual a 1.
 
 ### 1. Actualización de la tabla *"partido"*.

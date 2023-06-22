@@ -1,4 +1,5 @@
-# Datos en accion
+# ***"Datos en Acción: Explorando el Mundo de Big Data, Ciencia de Datos y Más"***
+
 Material de apoyo referente al libro electrónico "Datos en Acción: Explorando el Mundo de Big Data, Ciencia de Datos y Más"
 
 El objetivo de este repositorio es complementar con material de apoyo a los capítulos vistos dentro del libro, con ejercicios propuestos para complementar su aprendizaje.
