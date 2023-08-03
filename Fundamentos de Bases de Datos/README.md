@@ -489,7 +489,7 @@ INSERT INTO pruebas (dato)
 El [*"script"*](src/create_insert.sql) completo referente a *"creación de tablas e inserción de registros"* puede encontrarlo en el siguiente [*"enlace"*](src/create_insert.sql).
 
 ## 6. Actualización de registros:
-Al momento de efectuar una actualización de un registro se debe ser muy cuidadoso ya que todos los registros podrían ser afectados, a continucación se muestra un ejemplo, donde si no se coloca una condición toda la tabla será afectada:
+Al momento de efectuar una actualización de un registro se debe ser muy cuidadoso ya que todos los registros podrían ser afectados, a continuación se muestra un ejemplo, donde si no se coloca una condición toda la tabla será afectada:
 ```sql
 UPDATE pruebas SET dato = 'Actualización de registro';
 ```
