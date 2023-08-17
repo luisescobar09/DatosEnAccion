@@ -1,0 +1,109 @@
+# PARTE 1: Operadores de Comparación y Lógicos
+
+# 1.- Solicitar al usuario ingresar dos números:
+
+num1 = float(input("Ingresa el primer número: "))
+num2 = float(input("Ingresa el segundo número: "))
+
+# 2.- Utilizar operadores de comparación para determinar si num1 es igual a num2:
+
+igual = num1 == num2
+print("num1 es igual a num2:", igual)
+
+# 3.- Utilizar operadores de comparación para determinar si num1 es mayor que num2:
+
+mayor = num1 > num2
+print("num1 es mayor que num2:", mayor)
+
+# 4.- Utilizar operadores de comparación para determinar si num1 es menor que num2:
+
+menor = num1 < num2
+print("num1 es menor que num2:", menor)
+
+# 5.- Combinar resultados utilizando operadores lógicos para imprimir los resultados:
+
+print("num1 es igual o distinto de num2:", igual or not igual)
+print("num1 es mayor o menor que num2:", mayor or menor)
+
+
+
+# PARTE 2: Listas en Python
+
+# 1.- Crear una lista vacía y solicitar números al usuario:
+
+mi_lista = []
+for _ in range(5):
+    num = int(input("Ingresa un número entero: "))
+    mi_lista.append(num)
+
+# 2.- Imprimir la lista:
+
+print("Lista:", mi_lista)
+
+# 3.- Agregar el número 10 al final de la lista:
+
+mi_lista.append(10)
+
+# 4.- Insertar el número 7 en la segunda posición:
+
+mi_lista.insert(1, 7)
+
+# 5- Verificar si el número 3 está en la lista:
+
+if 3 in mi_lista:
+    print("El número 3 está en la lista.")
+else:
+    print("El número 3 no está en la lista.")
+
+
+
+# PARTE 3: Tuplas y Diccionarios en Python
+
+# 1.- Crear una tupla de frutas y acceder al segundo elemento:
+
+mi_tupla = ("manzana", "banana", "naranja")
+print("Segunda fruta:", mi_tupla[1])
+
+# 2.- Crear un diccionario y solicitar datos al usuario:
+
+mi_diccionario = {}
+for _ in range(3):
+    fruta, cantidad = input("Ingresa una fruta y su cantidad (fruta cantidad): ").split()
+    mi_diccionario[fruta] = int(cantidad)
+
+# 3.- Imprimir el diccionario:
+
+print("Diccionario:", mi_diccionario)
+
+# 4.- Obtener la cantidad de una fruta específica:"""
+
+fruta_buscar = input("Ingresa una fruta para buscar su cantidad: ")
+cantidad = mi_diccionario.get(fruta_buscar, "Fruta no encontrada")
+print("Cantidad:", cantidad)
+
+
+
+# PARTE 4: Conjuntos y Funciones
+
+# 1.- Crear un conjunto y solicitar nombres de colores:
+
+mi_conjunto = set()
+for _ in range(3):
+    color = input("Ingresa un color: ")
+    mi_conjunto.add(color)
+
+# 2.- Imprimir el conjunto:
+
+print("Conjunto:", mi_conjunto)
+
+# 3.- Definir y utilizar una función para calcular la suma de cuadrados:
+
+def suma_cuadrados(num1, num2):
+    return num1 ** 2 + num2 ** 2
+
+num1 = float(input("Ingresa el primer número: "))
+num2 = float(input("Ingresa el segundo número: "))
+resultado = suma_cuadrados(num1, num2)
+print("Suma de cuadrados:", resultado)
+
+# ¡Felicidases! Has completado los ejecicios 🎉🎉🎉
